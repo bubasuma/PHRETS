@@ -1,5 +1,5 @@
 {
-  "name": "troydavisson/phrets",
+  "name": "bubasuma/phrets",
   "type": "library",
   "license": "MIT",
   "description": "RETS library in PHP",
@@ -7,8 +7,12 @@
     "rets",
     "mls"
   ],
-  "homepage": "http://github.com/troydavisson/PHRETS",
+  "homepage": "https://github.com/bubasuma/PHRETS",
   "authors": [
+    {
+      "name": "Buba Suma",
+      "email": "bubasuma@gmail.com"
+    },
     {
       "name": "Troy Davisson",
       "email": "troy.davisson@gmail.com",
