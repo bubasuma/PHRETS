@@ -389,7 +389,7 @@ class Session
 
         $this->debug('Response: HTTP ' . $response->getStatusCode());
 
-        if (stripos($response->getHeader('Content-Type'), 'text/xml') !== false and $capability != 'GetObject') {
+        if (stripos($response->getHeader('Content-Type'), '/xml') !== false and $capability != 'GetObject') {
             $parser = $this->grab(Strategy::PARSER_XML);
             $xml = $parser->parse($response);
 
